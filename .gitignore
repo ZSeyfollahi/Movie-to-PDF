@@ -4,3 +4,44 @@
 *.ptx
 *.cubin
 *.fatbin
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Temporary files (can be generated during runtime)
+*.log
+*.tmp
+*.swp
+
+# Screenshots and other output directories
+Screenshots/
+*.pdf
+output/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Temporary files from image processing or downloads
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Miscellaneous
+*.bak
+*.swp
+*.bak~
